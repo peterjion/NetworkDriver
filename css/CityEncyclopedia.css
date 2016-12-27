@@ -1,0 +1,48 @@
+.wrapper{
+	width: 1180px;
+	margin: 0 auto;
+}
+.title{
+	font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.city-wrap{
+	margin-top: 30px;
+}
+.city-item{
+	margin-bottom: 20px;
+}
+.hot-city{
+	margin-bottom: 20px;
+}
+.clearfix{
+	display: block;
+}
+.city-cont{
+	margin-top: 16px;
+}
+.tit a{
+	font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hot-cont{
+	margin-top: 16px;
+}
+.hot-cont a{
+    font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+.city-cont a{
+	font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+a:hover{
+	color: #ff571a;
+}

@@ -1,0 +1,71 @@
+.clear{
+    zoom:1;
+}
+.clear:after {
+    clear:both;
+    content:'';
+    display:block;
+    height: 0;
+    visibility:hidden;
+} 
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.set-wrap {
+    display: block;
+    margin-top: 30px;
+}
+.type-item {
+    margin-bottom: 20px;
+}
+.clearfix {
+    display: block;
+}
+.letter {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+.set-box {
+    margin-left: 70px;
+    width: 1000px;
+}
+.set-car {
+    margin-right: 30px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 30px;
+}
+.set-car:hover{
+	color: #ff571a;
+}
+.type-cont {
+    margin-bottom: 10px;
+}
+.type-cont a {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+.type-cont a:hover {
+    color: #ff571a;
+}
+
+

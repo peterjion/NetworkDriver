@@ -1,0 +1,30 @@
+.vehicle{
+	width: 1020px;
+	margin: 0 auto;
+}
+.vehicleTop{
+	margin-top:45px;
+}
+.vehicleH1{
+	font-size: 25px;
+	color: rgb(68, 68, 68);
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+.vehicleP{
+	width: 960px;
+	font-size: 14px;
+	color: rgb(68, 68, 68);
+	text-align: left;
+	line-height: 25px;
+}
+.vehicleSpan{
+	font-size: 14px;
+	color: rgb(255, 140, 0);
+	line-height: 25px;
+}
+img{
+	margin-bottom: 16px;
+}

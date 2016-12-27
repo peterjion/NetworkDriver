@@ -1,0 +1,263 @@
+body{
+	padding-top:80px;
+}
+.clear{
+    zoom:1;
+}
+.clear:after {
+    clear:both;
+    content:'';
+    display:block;
+    height: 0;
+    visibility:hidden;
+}  
+/*基础样式*/
+.w1200{
+	margin:0 auto;
+	width:1200px;
+}
+.w1280{
+	margin:0 auto;
+	width:1280px;
+}
+.icon{
+	background-image:url(../image/icon.png);
+}
+.icon2{
+	background-image:url(../image/icon2.png);
+}
+/*顶部导航*/
+.topNav{
+	top:0;
+	left:0;
+	padding:20px 0;
+	width:100%;
+	height:36px;
+	background-color:white;
+	border-top:4px solid rgb(255, 88, 26);
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+.logo{
+	float:left;
+	margin:0 18px 0 6px;
+	width:82px;
+	height:36px;
+	background-image:url(../image/logo.png);
+}
+.area{
+	float:left;
+	margin:3px 50px 3px 0;
+	width:86px;
+	height:28px;
+	border:1px solid rgb(237, 237, 237);
+	border-radius:2px;
+}
+.area span{
+	display:block;
+	padding-left:23px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	color:rgb(102, 102, 102);
+	cursor:pointer;
+}
+.area .fixedBox{
+	margin-top:3px;
+	margin-left:-1px;
+	width:360px;
+	height:235px;
+	border:1px solid rgb(255, 88, 26);
+	display:none;
+}
+.topNav a{
+	color:rgb(51, 51, 51);
+}
+.topNav .anchor{
+	float:left;
+	margin-right:34px;
+	font-size:14px;
+	line-height:36px;
+	vertical-align:middle;
+}
+.topNav a.anchor:hover, .top .sign:hover{
+	color:rgb(255, 88, 26);
+}
+.topNav div.anchor{
+	display:inline;
+}
+.topNav input{
+	float:left;
+	margin-right:65px;
+	padding:0 8px;
+	width:200px;
+	height:28px;
+	border:2px solid rgb(230, 230, 230);
+	line-height:28px;
+	outline:none;
+}
+.topNav input:focus{
+	border-color:rgb(204, 204, 204);
+}
+.topNav .sign{
+	float:left;
+	margin-right:15px;
+	font-size:12px;
+	line-height:36px;
+}
+.topNav .tel{
+	float:right;
+	width:154px;
+	height:36px;
+}
+.topNav.normal{
+	position:absolute;
+}
+.topNav.fixed{
+	position:fixed;
+	z-index:2;
+}
+
+/*底部导航*/
+.bottomNav_bg{
+	height:400px;
+	background-color:rgb(31, 31, 31);
+}
+.bottomNav{
+	width: 1180px;
+	margin: 0 auto;
+}
+.bottomNav .bottomNav_top{
+	padding-top: 34px;
+}
+.bottomNav .bottomNav_top_one,.bottomNav_top_two,.bottomNav_top_there,.bottomNav_top_four,.bottomNav_top_five{
+	float: left;
+	width: 190px;
+	margin-bottom: 30px;
+}
+.bottomNav .title{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	margin-bottom:15px;
+	display: block;
+}
+.bottomNav .art_link{
+	display: block;
+	font-size: 12px;
+	color: rgb(113, 113, 113);
+	line-height: 25px;
+}
+.bottomNav .art_link:hover{
+	text-decoration: underline;
+}
+.bottomNav .bottomNav_top_five_img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 19px;
+}
+.bottomNav .bottomNav_top_five_p{
+	font-size: 14px;
+	color: rgb(113, 113, 113);
+	text-align: center;
+}
+.bottomNav_center{
+	line-height: 25px;
+	margin-bottom:30px;
+}
+.bottomNav_center span{
+	font-size: 14px;
+	color: rgb(113, 113, 113);
+}
+.bottomNav_center a{
+	font-size: 12px;
+	color: rgb(113, 113, 113);
+	margin-left: 9px;
+}
+.bottomNav_center a:hover{
+	color: rgb(255, 85, 23);
+}
+.bottomNav_lower .bottomNav_lower_p{
+	font-size: 14px;
+	color: rgb(113, 113, 113);
+}
+
+/*侧边栏*/
+.fixedNav{
+	position:fixed;
+	right:0;
+	bottom:50px;
+	width:52px;
+	height:284px;
+	z-index:1;
+	transition:width .25s;
+}
+.fixedNav:hover{
+	width:80px;
+}
+.fixedNav:hover .anchor span{
+	width:auto;
+}
+.fixedNav div{
+	height:34px;
+	overflow:hidden;
+	background-color:rgb(255, 88, 26);
+	text-indent:14px;
+	font-size:14px;
+	line-height:34px;
+	color:white;
+}
+.fixedNav .anchor{
+	float:left;
+	width:100%;
+	height:54px;
+	overflow:hidden;
+	background-color:rgb(247, 247, 247);
+	border-bottom:1px solid rgb(230, 230, 230);
+	border-left:1px solid rgb(230, 230, 230);
+	font-size:12px;
+	color:rgb(102, 102, 102);
+}
+.fixedNav .anchor:hover{
+	background-color:white;
+}
+.fixedNav .anchor .icon{
+	margin:10px 0 8px 18px;
+	display:block;
+	width:16px;
+	height:16px;
+	background-size:0;
+	background-color:black;
+}
+.fixedNav .anchor .favor{
+	background-position:;
+}
+.fixedNav .anchor .consult{
+	background-position:;
+}
+.fixedNav .anchor .sell{
+	background-position:;
+}
+.fixedNav .anchor .feedback{
+	background-position:;
+}
+.fixedNav .anchor span{
+	margin-left:16px;
+	display:block;
+	width:24px;
+	height:12px;
+	overflow:hidden;
+}
+.btnTop{
+	position:fixed;
+	right:0;
+	bottom:50px;
+	width:52px;
+	height:25px;
+	background-color:rgb(51, 51, 51);
+	text-align:center;
+	font-size:12px;
+	line-height:25px;
+	color:white;
+	cursor:pointer;
+	z-index:1;
+}

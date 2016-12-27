@@ -1,0 +1,368 @@
+.main{
+	height:2000px;
+}
+.main .left{
+	float:left;
+	width:242px;
+}
+.main .left .top{
+	width:240px;
+	height:39px;
+	background-color:rgb(245, 245, 245);
+	border:1px solid rgb(237, 237, 237);
+}
+.main .left .bottom h2{
+	font-size:14px;
+	line-height:18px;
+}
+.main .left .bottom{
+	padding:0 16px;
+	width:208px;
+	border-left: 1px solid rgb(221, 221, 221);
+	border-right: 1px solid rgb(221, 221, 221);
+	border-bottom: 1px solid rgb(221, 221, 221);
+}
+.main .left .bottom .select{
+	position:relative;
+	margin:10px 0 20px;
+	width:206px;
+	height:30px;
+	border:1px solid rgb(229, 229, 229);
+	cursor:pointer;
+}
+.main .left .bottom .select.normal ul{
+	display:none;
+}
+.main .left .bottom .select.current{
+	z-index:1;
+}
+.main .left .bottom .select:hover span{
+	color:rgb(255, 88, 26);
+}
+.main .left .bottom .select span{
+	margin-left:10px;
+	font-size:12px;
+	line-height:30px;
+	color:rgb(170, 170, 170);
+}
+.icon2.down{
+	position:absolute;
+	top:12px;
+	right:8px;
+	width:14px;
+	height:8px;
+	background-position:-8px -134px;
+}
+.main .left .bottom .select ul{
+	position:absolute;
+	top:25px;
+	left:-1px;
+	width:100%;
+	border:1px solid rgb(217, 217, 217);
+}
+.main .left .bottom .select ul li{
+	padding-left:20px;
+	height:25px;
+	background-color:white;
+	font-size:12px;
+	line-height:25px;
+	color:rgb(102, 102, 102);
+}
+.main .left .bottom .select ul li:hover{
+	background-color:rgb(255, 88, 26);
+	color:white;
+}
+
+/*左侧选择栏*/
+.buy{
+	width: 1280px;
+	margin: 0 auto;
+}
+.buy .left{
+	width: 242px;
+	float: left;
+}
+.buy .left .border-top{
+	width: 225px;
+	height: 40px;
+	line-height: 40px;
+	color:rgb(255, 88, 26);
+	border: 1px solid rgb(221, 221, 221);
+	background: rgb(245, 245, 245);
+	padding-left: 15px;
+	margin-top:22px;
+	margin-bottom: 22px;
+}
+.buy .left .border-bottom{
+	width: 225px;
+	height: 500px;
+	border-left: 1px solid rgb(221, 221, 221);
+	border-right: 1px solid rgb(221, 221, 221);
+	border-top: 1px solid rgb(221, 221, 221);
+	padding-left: 15px;
+	padding-top: 14px;
+}
+.buy .wai{
+	width: 1020px;
+	float: left;
+}
+.buy .right{
+	width: 1040px;	
+}
+.buy .left .border-bottom h2{
+	float: left;
+	font-size: 14px;
+	font-weight:normal;
+}
+.buy .left .border-bottom .border-bottom-span{
+	float: right;
+	font-size: 14px;
+	margin-right: 15px;
+}
+.buy .left .border-bottom .left-ul{
+	width: 213px;
+	float: left;
+}
+.buy .left .border-bottom li{
+	font-size: 12px;
+}
+.buy .left .border-bottom ._hover{
+	width: 50px;
+	height: 26px;
+	line-height: 26px;
+	display: inline-block;
+}
+.buy .left .border-bottom ._hover:hover{
+	color: rgb(255, 88, 26);
+}
+.buy .left .border-bottom ul li{
+	padding-bottom:34px;
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
+.buy .right a{
+	float: left;
+	display: block;
+	width: 240px;
+	height: 160px;
+	margin-left: 20px;
+}
+.buy .right img{
+	float: left;
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 13px;
+}
+.buy .right h2{
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	width: 200px;
+	color:rgb(51, 51, 51);
+	margin-top: 173px;
+	margin-left: 16px;
+}
+.buy .right h2:hover{
+	color :rgb(255, 87, 26);
+}
+.buy .right h3{
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	color:rgb(153, 153, 153);
+	margin-left: 15px;
+	margin-top: 15px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+.buy .right p{
+	float: left;
+	font-weight: bold;
+	color :rgb(255, 87, 26);
+	margin-top: 15px;
+	margin-left: 16px;
+}
+.price .price-top{
+	width: 208px;
+
+}
+.price .price-top h1{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: normal;
+	color: rgb(51, 51, 51);
+	float: left;
+	margin-top:12px;
+}
+.price .price-top .price-top-div{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	float: right;
+	color: rgb(51, 51, 51);
+	margin-top:12px;
+}
+.price .price-center .price-center-aa{
+	width: 213px;
+	margin-top: 14px;
+	float: left;
+	border-bottom: 1px solid rgb(237, 237, 237);
+	padding-bottom:25px;
+}
+.price .price-center .price-center-a{
+	display:inline-block;	
+}
+.price .price-center .price-center-a i{
+	width: 24px;
+	height: 8px;
+	background: rgb(217, 217, 217);
+	display: block;
+	margin-right: -3px;
+}
+.price .price-center .price-center-a i:hover{
+	background: rgb(255, 87, 26);
+}
+.price .price-center em{
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	margin-left: -5px;
+	display:block;
+	float: left;	
+	font-style: normal;
+}
+.price .price-center .price-center-div{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 14px;
+	float: left;
+	margin-left: -13px;
+}
+.models{
+	margin-top:10px;
+}
+.models .models-top-a{
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	float: left;
+}
+.models .models-h4{
+	font-size: 14px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+}
+.models .models-center{
+	width: 213px;
+	float: left;
+}
+.models .models-center .models-top-a{
+	width: 70px;
+	height: 45px;
+	text-align: center;
+	display:inline-block;
+}
+.models .models-center .models-div{
+	display:block;
+	width: 50px;
+	height: 20px;
+	background: url(../image/models.png) no-repeat 14px 0;
+}
+.models .models-center .models-span{
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+.models .models-center .models-span:hover{
+	color: rgb(255, 87, 26);
+}
+/*右侧*/
+/*商品列表*/
+.main .right{
+	float:right;
+	width:1020px;
+	/*display: inline-block;*/
+	/*margin-top: -810px;*/
+}
+.main .right .bottom{
+	width:100%;
+}
+.main .right .bottom .container{
+	width:1040px;
+}
+.main .right .bottom .container .box{
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-right:20px;
+	width:240px;
+	height:320px;
+	background-repeat:no-repeat;
+	background-size:100% 160px;
+}
+.main .right .bottom .container .box .detail{
+	position:absolute;
+	bottom:0;
+	padding:0 14px;
+	width:210px;
+	height:159px;
+	border-width:0 1px 1px;
+	border-style:solid;
+	border-color:rgb(230, 230, 230);
+}
+.main .right .bottom .container .box .detail a{
+	position:absolute;
+	top:-160px;
+	left:0;
+	padding:170px 16px;
+	height:44px;
+	font-size:14px;
+	line-height:22px;
+	word-break:break-all;
+	color:rgb(51, 51, 51);
+}
+.main .right .bottom .container .box .detail .price{
+	margin-top:60px;
+	font-size:16px;
+	font-weight:bold;
+	color:rgb(255, 88, 26);
+}
+.main .right .bottom .container .box .detail .content{
+	margin-top:9px;
+	font-size:12px;
+	color:rgb(153, 153, 153);
+}
+.main .right .bottom .container .box .detail .mark{
+	position:absolute;
+	bottom:0;
+	width:210px;
+	height:37px;
+	border-top:1px solid rgb(230, 230, 230);
+}
+.main .right .bottom .container .box .detail .mark em{
+	padding:0 3px;
+	background-color:rgb(96, 178, 94);
+	font-size:12px;
+	line-height:37px;
+	color:white;
+}
+.main .right .bottom .container .box .sold{
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-39px;
+	width:78px;
+	height:78px;
+	background-color:rgb(230, 230, 230);
+	text-align:center;
+	font-size:24px;
+	line-height:78px;
+	color:rgb(162, 162, 162);
+	opacity:.8;
+	border-radius:50%;
+}
+.bottomNav{
+	margin-top:400px;
+}

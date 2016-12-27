@@ -1,0 +1,56 @@
+.clear{
+    zoom:1;
+}
+.clear:after {
+    clear:both;
+    content:'';
+    display:block;
+    height: 0;
+    visibility:hidden;
+}  
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+.brand-wrap {
+    margin-top: 30px;
+}
+.brand-item {
+    margin-bottom: 20px;
+}
+.clearfix{
+    display: block;
+}
+.letter{
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    float: left;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999;
+}
+.brand-cont{
+    margin-left: 30px;
+    padding-left: 52px;
+    width: 1000px;
+}
+.brand-cont a{
+	font-size: 14px;
+    margin-right: 15px;
+    color: #666;
+    line-height: 30px;
+}
+.brand-cont a:hover{
+    color: #ff571a;
+}

@@ -1,0 +1,321 @@
+*{
+	margin:0;
+	padding:0;
+	line-height:1;
+	font-family:Microsoft Yahei;
+}
+ul, ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+img{
+	border:none;
+}
+.clear{
+	clear: both;
+}
+.w1200{
+	margin:0 auto;
+	width:1200px;
+}
+.icon{
+	background-image:url(../image/icon.png);
+}
+body{
+	padding-top:80px;
+}
+/*顶部导航*/
+.topNav{
+	top:0;
+	padding:20px 0;
+	width:100%;
+	height:36px;
+	background-color:white;
+	border-top:4px solid rgb(255, 88, 26);
+	border-bottom: 1px solid rgb(220, 220, 220);
+}
+.logo{
+	float:left;
+	margin:0 18px 0 6px;
+	width:82px;
+	height:36px;
+	cursor: pointer;
+	background-image:url(../image/logo.png);
+}
+.area{
+	float:left;
+	margin:3px 50px 3px 0;
+	width:86px;
+	height:28px;
+	border:1px solid rgb(237, 237, 237);
+	border-radius:2px;
+}
+.area span{
+	display:block;
+	padding-left:23px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	color:rgb(102, 102, 102);
+	cursor:pointer;
+}
+.area .fixedBox{
+	margin-top:3px;
+	margin-left:-1px;
+	width:360px;
+	height:235px;
+	border:1px solid rgb(255, 88, 26);
+	display:none;
+}
+.topNav a{
+	color:rgb(51, 51, 51);
+}
+.topNav .anchor{
+	float:left;
+	margin-right:34px;
+	font-size:14px;
+	line-height:36px;
+	vertical-align:middle;
+}
+.topNav a.anchor:hover, .top .sign:hover{
+	color:rgb(255, 88, 26);
+}
+.topNav div.anchor{
+	display:inline;
+}
+.topNav input{
+	float:left;
+	margin-right:65px;
+	padding:0 8px;
+	width:200px;
+	height:28px;
+	border:2px solid rgb(230, 230, 230);
+	line-height:28px;
+	outline:none;
+}
+.topNav input:focus{
+	border-color:rgb(204, 204, 204);
+}
+.topNav .sign{
+	float:left;
+	margin-right:15px;
+	font-size:12px;
+	line-height:36px;
+}
+.topNav .tel{
+	float:right;
+	width:154px;
+	height:36px;
+}
+.topNav.normal{
+	position:absolute;
+}
+.topNav.fixed{
+	position:fixed;
+	z-index:2;
+}
+.buy{
+	width: 1280px;
+	margin: 0 auto;
+}
+.buy .left{
+	width: 242px;
+	float: left;
+}
+.buy .left .border-top{
+	width: 225px;
+	height: 40px;
+	line-height: 40px;
+	color:rgb(255, 88, 26);
+	border: 1px solid rgb(221, 221, 221);
+	background: rgb(245, 245, 245);
+	padding-left: 15px;
+	margin-top:22px;
+	margin-bottom: 22px;
+}
+.buy .left .border-bottom{
+	width: 225px;
+	height: 792px;
+	border: 1px solid rgb(221, 221, 221);
+	padding-left: 15px;
+	padding-top: 14px;
+}
+.buy .wai{
+	width: 1020px;
+	float: left;
+}
+.buy .right{
+	width: 1040px;	
+}
+.buy .left .border-bottom h2{
+	float: left;
+	font-size: 14px;
+	font-weight:normal;
+}
+.buy .left .border-bottom .border-bottom-span{
+	float: right;
+	font-size: 14px;
+	margin-right: 15px;
+}
+.buy .left .border-bottom .left-ul{
+	width: 213px;
+	float: left;
+}
+.buy .left .border-bottom li{
+	font-size: 12px;
+}
+.buy .left .border-bottom ._hover{
+	width: 50px;
+	height: 26px;
+	line-height: 26px;
+	display: inline-block;
+}
+.buy .left .border-bottom ._hover:hover{
+	color: rgb(255, 88, 26);
+}
+.buy .left .border-bottom ul li{
+	padding-bottom:34px;
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
+.buy .right a{
+	float: left;
+	display: block;
+	width: 240px;
+	height: 160px;
+	margin-left: 20px;
+}
+.buy .right img{
+	float: left;
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 13px;
+}
+.buy .right h2{
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	width: 200px;
+	color:rgb(51, 51, 51);
+	margin-top: 173px;
+	margin-left: 16px;
+}
+.buy .right h2:hover{
+	color :rgb(255, 87, 26);
+}
+.buy .right h3{
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	color:rgb(153, 153, 153);
+	margin-left: 15px;
+	margin-top: 15px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+.buy .right p{
+	float: left;
+	font-weight: bold;
+	color :rgb(255, 87, 26);
+	margin-top: 15px;
+	margin-left: 16px;
+}
+.price .price-top{
+	width: 208px;
+
+}
+.price .price-top h1{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: normal;
+	color: rgb(51, 51, 51);
+	float: left;
+	margin-top:12px;
+}
+.price .price-top .price-top-div{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	float: right;
+	color: rgb(51, 51, 51);
+	margin-top:12px;
+}
+.price .price-center .price-center-aa{
+	width: 213px;
+	margin-top: 14px;
+	float: left;
+	border-bottom: 1px solid rgb(237, 237, 237);
+	padding-bottom:25px;
+}
+.price .price-center .price-center-a{
+	display:inline-block;	
+}
+.price .price-center .price-center-a i{
+	width: 24px;
+	height: 8px;
+	background: rgb(217, 217, 217);
+	display: block;
+	margin-right: -3px;
+}
+.price .price-center .price-center-a i:hover{
+	background: rgb(255, 87, 26);
+}
+.price .price-center em{
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	margin-left: -5px;
+	display:block;
+	float: left;	
+	font-style: normal;
+}
+.price .price-center .price-center-div{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 14px;
+	float: left;
+	margin-left: -13px;
+}
+.models{
+	margin-top:10px;
+}
+.models .models-top-a{
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	float: left;
+}
+.models .models-h4{
+	font-size: 14px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+}
+.models .models-center{
+	width: 213px;
+	float: left;
+}
+.models .models-center .models-top-a{
+	width: 70px;
+	height: 45px;
+	text-align: center;
+	display:inline-block;
+}
+.models .models-center .models-div{
+	display:block;
+	width: 50px;
+	height: 20px;
+	background: url(../image/models.png) no-repeat 14px 0;
+}
+.models .models-center .models-span{
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+.models .models-center .models-span:hover{
+	color: rgb(255, 87, 26);
+}

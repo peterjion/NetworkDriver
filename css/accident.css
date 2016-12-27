@@ -1,0 +1,35 @@
+.fault{
+	width: 1020px;
+	margin: 0 auto;
+}
+.faultTop{
+	margin-top: 70px;
+}
+.faultH1{
+	font-size: 25px;
+	color: rgb(68, 68, 68);
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.faultP{
+	font-size: 14px;
+	line-height: 35px;
+	color: rgb(68, 68, 68);
+	text-align: left;
+}
+.faultNav{
+	margin-top: 35px;
+}
+.faultSpan{
+	color:rgb(255, 140, 0);
+	font-size: 16px;
+	line-height: 35px;
+}
+.faultImg{
+	margin-top: 5px;
+	margin-bottom: 48px;
+}
+.faultCar{
+	margin-bottom: 36px;
+}
