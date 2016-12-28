@@ -226,19 +226,38 @@ body{
 	width:16px;
 	height:16px;
 	background-size:0;
-	background-color:black;
 }
 .fixedNav .anchor .favor{
-	background-position:;
+	background: url(../image/icon2.png) no-repeat;
+	background-position:0px 0px;
 }
 .fixedNav .anchor .consult{
-	background-position:;
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-20px 0px;
 }
 .fixedNav .anchor .sell{
-	background-position:;
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-42px 0px;
 }
 .fixedNav .anchor .feedback{
-	background-position:;
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-79px 0px;
+}
+.fixedNav .anchor:hover .favor{
+	background: url(../image/icon2.png) no-repeat;
+	background-position:0px -20px;
+}
+.fixedNav .anchor:hover .consult{
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-20px -20px;
+}
+.fixedNav .anchor:hover .sell{
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-42px -20px;
+}
+.fixedNav .anchor:hover .feedback{
+	background: url(../image/icon2.png) no-repeat;
+	background-position:-79px -20px;
 }
 .fixedNav .anchor span{
 	margin-left:16px;

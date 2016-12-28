@@ -1,4 +1,4 @@
-/*轮播图*/
+轮播图*/
 .banner{
 	position:relative;
 	height:460px;
@@ -9,7 +9,7 @@
 .banner a{
 	position:absolute;
 	width:100%;
-	height:100%;
+	height:460px;
 	background-position:center;
 	background-size:100% 100%;
 }
@@ -40,7 +40,7 @@
 .nav{
 	height:123px;
 	border:1px solid rgb(217, 217, 217);
-	padding-top: 16px;
+	padding-top: 480px;
 }
 .navWidth{
 	width: 1180px;
@@ -54,6 +54,12 @@
 	padding: 0 2px;
 	height: 104px;
 	border-right: 1px solid rgb(238, 238, 238)
+}
+.navCenter{
+	float: left;
+	height: 104px;
+	border-right: 1px solid rgb(238, 238, 238);
+	padding: 0 2px;
 }
 .navHt{
 	width: 438px;
@@ -101,7 +107,9 @@
 	color: rgb(255, 87, 26);
 }
 .navRight_text{
+	float: left;
 	margin-left: 16px;
+	width: 300px;
 	height: 40px;
 	line-height: 40px;
 }
@@ -109,13 +117,15 @@
 	float: left;
 	width: 290px;
 	height: 56px;
+	margin-left: 21px;
 }
 .navRight_item{
+	float: left;
 	height: 26px;
 	font-size: 12px;
 	line-height: 26px;
 	color: rgb(102, 102, 102);
-	padding: 0 12px;
+	padding: 0 11px;
 }
 .navRight_item:hover{
 	color: rgb(255, 87, 26);
@@ -183,4 +193,65 @@
 	padding-top:82px;
 	height:390px;
 	background-color:white;
+}
+.splitRight{
+	width: 1180px;
+	margin:0 auto;
+}
+.splitRight_width{
+	float: left;
+	width: 389px;
+}
+.splitItem{
+	height: 180px;
+	border-right: 1px solid rgb(230, 230, 230);
+	margin-left: 34px;
+}
+.splitItems{
+	margin-left: 34px;
+}
+.splitImg{
+	float: left;
+}
+.splitTop{
+	float: left;
+	width: 239px;
+	height: 64px;
+	padding-left: 22px;
+	color: rgb(0, 0, 0);
+}
+.splitItem .splitTop .splitP{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	line-height: 26px;
+}
+.splitItem .splitTop .splitSub{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-top: 16px;
+}
+.splitItems .splitTop .splitP{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	line-height: 26px;
+}
+.splitItems .splitTop .splitSub{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-top: 16px;
+}
+.split_title{
+	display: inline-block;
+	width: 324px;
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+.splitTitle{
+	line-height: 16px;
+}
+.split_a{
+	font-size: 14px;
+	color: rgb(253, 114, 64);
 }
